@@ -1,0 +1,55 @@
+.skills{
+    padding: 20px;
+}
+
+.skills__title{
+    display: flex;
+    justify-content: center;
+}
+
+.skills__cards{
+    display: flex;
+ flex-direction: row;
+ justify-content: center;
+padding-left: 10em;
+}
+
+.card{
+    margin-left: -10em;
+    width: 400px;
+    border: 2px solid black;
+    background-color: white;
+    transition: margin-left 200ms;
+    border-radius: 20px;
+
+
+
+}
+
+.card:hover+.card{
+    margin-left: 1em;
+}
+
+
+.card_img {
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px 0px 10px;
+    /* width: 100%; */
+}
+.card_img img{
+object-fit: cover;
+}
+
+.card_button{
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+
+
+    background: radial-gradient(97.3% 110.91% at 50% 50%, #7726AB 90.62%, #3A3845 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, #9A0F98, #9A0F98);
+
+}
+
+

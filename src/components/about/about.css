@@ -1,0 +1,39 @@
+.about{
+    background-color: black;
+    color: white;
+    /* width: 100vw; */
+
+}
+
+.about__title{
+    display: flex;
+    justify-content: center;
+}
+
+.about__body{
+    padding-left: 50px;
+    display: grid;
+grid-template-columns: repeat(auto-fill,max(50%,550px ) );    
+/* gap: 10px; */
+justify-content: space-around;
+overflow: hidden;
+/* max-height: 450px; */
+}
+
+.about__body-text {
+    font-size: 32px;
+}
+.frase{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+object-fit:cover;
+margin-left: 110px;
+}
+
+

@@ -1,0 +1,69 @@
+
+
+.contact{
+    background: #1A191F;
+    /* height: 200px; */
+    color: white;
+    padding: 17px;
+
+}
+
+.contact__header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__title{
+    display: flex;
+    justify-content: start;
+    margin: 0;
+
+}
+.header__media{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around;
+    width: calc(100% / 3); */
+}
+.icon img{
+width: 60px;
+margin: 0px 10px;
+border-radius: 100%;
+}
+
+
+.contact__body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+justify-content: space-between;
+padding: 10px;
+position: relative;
+
+}
+ul{
+    padding: 0;
+    /* background-color: red; */
+}
+ul>li{
+    /* background-color: red; */
+    list-style: none;
+    margin-top: 15px;
+}
+.social{
+    grid-column: 1/12;
+    grid-row: 1;
+}
+.otros{
+    grid-column: 2/12;
+    grid-row: 1;
+}
+.copyright {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.copyright h2{
+    margin: 0;
+}
